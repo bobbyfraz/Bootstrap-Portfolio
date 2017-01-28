@@ -1,0 +1,217 @@
+
+body{background-image:url(../images/back.png);
+	}
+
+section, body, header, h1, h2, #bio, .connect, #contact, #portfolio
+	{}
+
+header{background: white;
+	}
+
+	#name{background: #4aaaa5;
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	font-family: georgia;
+	}
+
+	#about{font-family: arial;
+	font-size: 18px; 
+	float: left;
+	}
+
+	#portfoliolink{font-family: arial;
+	font-size: 18px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	}
+
+	#contact{font-family: arial;
+	font-size: 18px;
+	float: left;
+	}
+
+#bio{background: white;
+	}
+
+	h1{color: #4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: georgia;
+	}
+
+	#me{margin-bottom: 10px;
+	margin-right: 10px;
+	}
+
+	p{line-height: normal;
+	font-size: 18px;
+	font-family: arial;
+	}
+
+#connect{background: white;
+	margin-top: 20px;
+	text-align: center;
+	padding-bottom: 20px; 
+	}
+
+	h2{color: #4aaaa5;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: georgia;
+	}
+
+#footerline{background: #4aaaa5;
+	size: 10px;
+	padding: 5px;
+	clear: both;
+	margin: 40px 0px 0px 0px;
+	}
+
+footer{background: #666666;
+	text-align: center;
+	font-size: 14px;
+	font-family: arial;
+	padding: 20px;
+	}
+
+#contact{background: white;
+	padding-bottom: 10px;
+	}
+
+	h3{color: #4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: georgia;
+	}
+
+	#textarea1{height: 40px;
+	margin-bottom: 10px;}
+
+	#h4{font-family: georgia;
+	font-size: 18px;
+	}
+
+	#textarea2{height: 40px;
+	margin-bottom: 10px;}
+
+	#h5{font-family: georgia;
+	font-size: 18px;
+	}
+
+	#textarea3{margin-bottom: 10px;
+	height: 150px;}
+
+	#h6{font-family: georgia;
+	font-size: 18px;
+	}
+
+	#submit{background: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	font-family: georgia;
+	padding: 5px 10px 5px 10px;
+	}
+
+#portfolio{background: white;
+	}
+
+	h7{color: #4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	font-family: georgia;
+	}
+
+	#hangman{position: static;}
+
+	h8{background: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	font-family: georgia;
+	position: absolute;
+	margin-bottom: 20px;
+	}
+
+	#rpggame{position: static;}
+
+	h9{background: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	font-family: georgia;
+	position: relative;
+	margin-bottom: 20px;
+	}
+
+	#trivia{position: static;}
+
+	h10{background: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	font-family: georgia;
+	position: relative;
+	margin-bottom: 20px;
+	}
+
+	#rutgers{position: static;}
+
+	h11{background: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	font-family: georgia;
+	position: relative;
+	margin-bottom: 20px;
+	}
+
+	#rockpaperscissors{position: static;}
+
+	h12{background: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	font-family: georgia;
+	position: relative;
+	margin-bottom: 20px;
+	}
+
+@media only screen and (max-width: 980px){
+	#me{width: 300px;
+	height: 300px;
+	}
+	#hangman{}
+	h8{clear: both;
+		position: relative;
+		
+	}
+	#rpggame{}
+	h9{position: relative;
+	}
+	#trivia{}
+	h10{position: relative;
+	}
+	#rutgers{}
+	h11{position: relative;
+	}
+	#rockpaperscissors{}
+	h12{position: relative;
+	}
+}
+
+@media only screen and (max-width: 780px){
+	#me{float: left;
+	width: 250px;
+	height: 250px;}
+}
+
+@media only screen and (max-width: 640px){
+	#name{text-align: center;
+	font-size: 38px;
+	}
+	#about{font-size: 22px;}
+	#portfoliolink{font-size: 22px;}
+	#contact{font-size: 22px;}
+	#me{width: 500px;
+	height: 500px;
+	}
+	#portfolio{padding: 20px;}
+}
